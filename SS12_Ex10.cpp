@@ -12,33 +12,33 @@ int main(){
 		
 		switch(choice){
 			case 1: //Gioi han mang va gia tri do nguoi dung nhap vao 
-				int menu1();
+				void menu1();
 				menu1();
 				break;
 			case 2: //In ra cac gia tri ma mang dang quan li
-				int menu2();
+				void menu2();
 				menu2();
 				break;
 			case 3: //Them phan tu vao vi tri ban muon 
-				int menu3();
+				void menu3();
 				menu3();
 				break;
 			case 4: //Sua phan tu o vi tri chi dinh 
-				int menu4();
+				void menu4();
 				menu4();
 				break;
 			case 5: //Xoa phan tu o vi tri chi dinh 
-				int menu5();
+				void menu5();
 				menu5();
 				break;
 			case 6: //Sap xep phan tu 
-				int menu6();
+				void menu6();
 				menu6();
 				//a,Sap xep tang dan 
 				//b,Sap xep giam dan
 				break;
 			case 7: // Tim kiem phan tu 
-				int menu7();
+				void menu7();
 				menu7();
 				break;
 			case 8: // Thoat chuong trinh
